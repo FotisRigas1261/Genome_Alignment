@@ -1,5 +1,7 @@
-package basic_operations;
+
 import java.util.Scanner;
+import basic_operations.*;
+
 
 import java.util.List;
 
