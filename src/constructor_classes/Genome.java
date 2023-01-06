@@ -1,4 +1,4 @@
-package basic_operations;
+package constructor_classes;
 
 public class Genome {   //this is a constructor class creating the genome objects
 	String title;
@@ -20,7 +20,10 @@ public class Genome {   //this is a constructor class creating the genome object
         return sequence;
     }
 	public char charAt(int j) {
-		// TODO Auto-generated method stub
+		
 		return 0;
 	}
+	public void setSequence(String sequence) {
+	    this.sequence = sequence;
+	  }	
 }

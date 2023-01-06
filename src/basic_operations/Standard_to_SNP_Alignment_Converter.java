@@ -3,11 +3,12 @@ package basic_operations;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Standard_to_SNP_Alignment_Conversion{
-	public static List<Genome> genome_conversion(List<Genome> genomes) throws Exception {
+import constructor_classes.Genome;
+
+public class Standard_to_SNP_Alignment_Converter{
+	public static List<Genome> convert_to_SNP(List<Genome> genomes) throws Exception {
 
 	List<Genome> SNP = new ArrayList<>();
-
 	Genome firstGenome = genomes.get(0);  // Get the first Genome object
 
 	for (int i = 1; i < genomes.size(); i++) {  // Iterate through the rest of the Genomes

@@ -1,9 +1,11 @@
-package basic_operations;
+package file_readers;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
+
+import constructor_classes.Genome;
 
 public class FASTA_reader{        //This class creates a list named genomes, containing Genome objects
     public static List<Genome> readGenomes(String File_name) throws Exception {
